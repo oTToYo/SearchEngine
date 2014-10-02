@@ -10,7 +10,7 @@ public class SearchEngine {
 	public static void main(String args[]) throws Exception
 	{
 		
-		System.out.println("d");
+		System.out.println("ddfs");
 		SearchEngine engine = new SearchEngine("data/");
 		
 	}

@@ -76,4 +76,15 @@ public class FileIO {
 	    return map;
 		
 	}
+	public static String map2text(Map map) 
+	{
+	    StringBuffer rzStr = new StringBuffer();
+	    Object[] keys = map.keySet().toArray();
+	    Object[] values = map.values().toArray();
+	    for (int i=0; i<keys.length; i++) 
+	      rzStr.append(keys[i]+"="+values[i]+"\n");
+	    return rzStr.toString();
+	    
+	}
+	
 }
